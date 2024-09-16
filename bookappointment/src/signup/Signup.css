@@ -1,0 +1,45 @@
+.signup_container {
+  background: url("https://media.istockphoto.com/id/535274907/photo/doctor-with-a-blank-white-banner.jpg?s=612x612&w=0&k=20&c=f1e3nFbmNN3VPsvqTHfP1evLWO4a0FPvr--xo1NaHro=");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.signup_main {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text_boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text_input {
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  height: 40px;
+}
+.btn_signup {
+  text-align: center;
+}
+
+.btn_signup button {
+  padding: 10px 120px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+}
